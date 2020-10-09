@@ -1,0 +1,323 @@
+@import 'modules/_vars.scss';
+@import 'modules/_main.scss';
+@import 'modules/_nav.scss';
+@import 'modules/_footer.scss';
+
+@charset "UTF-8";
+/*attempting to style dropdowns*/
+/* ---- prof portal styles ---*/
+
+.calendar {
+	height: 350px;
+	background-color: #959595;
+	color: white;
+	font-size: .8rem;
+}
+.trending {
+	height: 350px;
+	background-color: #959595;
+	color: white;
+	font-size: .8rem;
+}
+.sports {
+	height: 350px;
+	background-color: #959595;
+	color: white;
+	font-size: .8rem;
+}
+.box2 {
+	padding-left: 0;
+}
+.box3 {
+	padding-left: 0;
+}
+#mainImg {
+	width: 100%;
+}
+.courseStuff {
+	margin: 0;
+}
+.calendarStuff {
+	margin: 0;
+	hr {
+		margin-top: 0;
+	}
+}
+.lowerPanelNav {
+	margin: 0;
+	font-size: 1.8rem;
+	li {
+		margin-right: 60px;
+		cursor: pointer;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+.courseInfo {
+	position: relative;
+	left: 40px;
+	font-weight: 300;
+	color: #969595;
+	h2 {
+		font-weight: 300;
+		font-size: 4.2rem;
+		padding-top: 10px;
+	}
+	h3 {
+		font-weight: 300;
+		margin-bottom: 15px;
+	}
+	hr {
+		max-width: 185px;
+		margin-left: 0;
+	}
+	>h3 {
+		>i {
+			margin-right: 10px;
+			cursor: pointer;
+		}
+	}
+}
+.weeklySched {
+	position: relative;
+	left: 40px;
+	color: #969595;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	>ul {
+		margin-bottom: 0;
+	}
+}
+.bottomCalendar {
+	position: relative;
+	left: 40px;
+}
+.dayBox {
+	background-color: #eaeaea;
+	color: #9b9b9b;
+	width: 90%;
+	height: 275px;
+	i {
+		font-size: 3rem;
+		&:last-child {
+			position: relative;
+			top: -30px;
+		}
+	}
+}
+.dayMarker {
+	font-size: 6rem;
+	font-weight: 700;
+	position: relative;
+	top: -20px;
+}
+hr {
+	border-color: #ccc;
+}
+table {
+	color: #a4a9ae;
+	th {
+		&:first-child {
+			padding-left: 30px;
+		}
+	}
+	td {
+		&:first-child {
+			padding-left: 30px;
+		}
+	}
+	tr {
+		&:nth-child(2n+1) {
+			background-color: #f0f2f5;
+		}
+		&:nth-child(2n+2) {
+			background-color: #f6f8fa;
+		}
+	}
+}
+th {
+	padding-bottom: 20px;
+	font-size: 1.5rem;
+	color: #999;
+	background-color: transparent;
+}
+td {
+	font-size: 1.45rem;
+	padding: 10px 0;
+	span {
+		margin-left: 12px;
+		margin-right: 6px;
+		font-size: 1.85rem;
+		color: #ccc;
+		&:nth-child(1) {
+			margin-right: 0;
+		}
+		&:nth-child(2) {
+			margin-right: 0;
+		}
+	}
+	i {
+		font-size: 5rem;
+	}
+}
+.stretchCell {
+	width: 210px;
+}
+.wideCell {
+	width: 30%;
+}
+.locked {
+	color: red;
+}
+.viewed {
+	color: #a3cb7c;
+}
+.notViewed {
+	color: #d6b600;
+}
+.fbActive {
+	color: #666;
+}
+
+.iconHead {
+	position: relative;
+	left: -10px;
+}
+.childList {
+	font-weight: 300;
+	list-style-type: none;
+	padding-left: 20px;
+	font-size: 12.5px;
+	li {
+		padding-top: 10px;
+	}
+}
+.firstHeading {
+	margin: 0;
+}
+.firstHeader {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.tempLink {
+	text-decoration: underline;
+}
+.collapseLi {
+	padding-top: 5px;
+}
+.listText {
+	position: absolute;
+	top: 7px;
+	left: 60px;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	span {
+		color: red;
+		font-size: 1.5rem;
+	}
+}
+.topPanel {
+	width: 100%;
+	height: 50px;
+	background-color: #383838;
+	position: relative;
+	i {
+		position: absolute;
+		top: -20px;
+		left: 80%;
+		font-size: 3rem;
+		color: #383838;
+	}
+	p {
+		padding: 15px 0 0 20px;
+	}
+}
+.discussionDrop {
+	margin: 10px 0;
+	width: 200px;
+	padding-bottom: 0;
+}
+#messageBadge {
+	position: relative;
+	background-color: #853c37;
+	font-size: 1rem;
+	left: 10px;
+	top: -2px;
+	width: 30;
+	height: 30;
+	text-align: center;
+}
+.emptyCircle {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: #eff3f4;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+.navIndicator {
+	position: relative;
+	height: 8px;
+	background-color: #f3d83f;
+	width: 210px;
+}
+.profTools {
+	position: relative;
+	li {
+		margin-right: 6px;
+		&:nth-child(3) {
+			margin-right: 0;
+			padding-right: 0;
+			&:after {
+				content: "|";
+				position: relative;
+				padding-left: 15px;
+				opacity: .8;
+				top: -2px;
+				cursor: default;
+			}
+		}
+		&:last-child {
+			margin-left: 3px;
+		}
+	}
+	p {
+		display: inline;
+		position: relative;
+		font-size: 1.5rem;
+		top: -2px;
+		padding-left: 8px;
+	}
+}
+.profToolsTop {
+	left: 40px;
+	margin: 20px 0;
+	cursor: pointer;
+}
+.tCal {
+	position: relative;
+	left: 40px;
+	padding: 0;
+}
+.calSnap {
+	background-color: #c5c5c3;
+	color: white;
+}
+.notice {
+	background-color: #dfb6b2;
+	color: white;
+}
+.genericNotice {
+	background-color: #b8dac7;
+	color: white;
+}
+.allNotices {
+	div {
+		height: 170px;
+		margin-bottom: 15px;
+	}
+}
